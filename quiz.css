@@ -1,0 +1,245 @@
+.NewQ {
+    text-align: center;
+    border: 1px solid black;
+    height: 350px;
+    border-radius: 10px;
+    background-color: #8ac5c3;
+    color: black;
+    margin: 50px;
+}
+.NewQ:hover {
+    background-color: #0C7489;
+    transition: linear 0.2s;
+}
+.Stage1.NewQ .quizbtn,.Stage1.NewQ  .intro {
+    display: none;
+}
+.intro {
+    text-align: center;
+}
+.shortext {
+    text-align: center;
+    font-size: 16px;
+}
+.a1 {
+    background-color: #edece8;
+    color: black;
+    padding: 12px 12px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+}
+.a1:hover {
+    cursor: pointer;
+    background-color:  #8ac5c3;
+    transition: linear 0.2s;
+}
+.a2 {
+    background-color: #edece8;
+    color: black;
+    padding: 12px 12px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+}
+.a2:hover {
+    cursor: pointer;
+    background-color:  #8ac5c3;
+    transition: linear 0.2s;
+}
+.a3 {
+    background-color: #edece8;
+    color: black;
+    padding: 12px 12px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+}
+.a3:hover {
+    cursor: pointer;
+    background-color:  #8ac5c3;
+    transition: linear 0.2s;
+}
+.a1-1 {
+    background-color: #edece8;
+    color: black;
+    padding: 12px 12px;
+    width: 170px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    display: none;
+}
+.a1-1:hover {
+    cursor: pointer;
+    background-color:  #8ac5c3;
+    transition: linear 0.2s;
+}
+.a2-2 {
+    background-color: #edece8;
+    color: black;
+    padding: 12px 12px;
+    width: 170px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    display: none;
+}
+.a2-2:hover {
+    cursor: pointer;
+    background-color:  #8ac5c3;
+    transition: linear 0.2s;
+}
+.a3-3, .a3-1 , .a3-2, .a3-4 {
+    background-color: #edece8;
+    color: black;
+    padding: 12px 12px;
+    width: 170px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    display: none;
+}
+.a3-3:hover {
+    cursor: pointer;
+    background-color:  #8ac5c3;
+    transition: linear 0.2s;
+}
+.false {
+    color: red;
+    display: none;
+}
+.right {
+    color: green;
+    display: none;
+}
+.interface-1, .interface-2, .interface-3 {
+    display: none;
+
+}
+.Stage1 .interface-1 {
+    display: inline-block;
+}
+.secondq {
+    display: none;
+}
+.back {
+    background-color: #edece8;
+    border: none;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+.back:hover {
+    cursor: pointer;
+    background-color:  #8ac5c3;
+    transition: linear 0.2s;
+}
+.nextq {
+    background-color: #edece8;
+    color: black;
+    padding: 12px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    display: none;
+    width: 180px;
+}
+.nextq:hover {
+    cursor: pointer;
+    background-color:  #8ac5c3;
+    transition: linear 0.2s;
+}
+.nextq2 {
+    background-color: #edece8;
+    color: black;
+    padding: 12px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    display: none;
+    width: 180px;
+}
+.nextq2:hover {
+    cursor: pointer;
+    background-color:  #8ac5c3;
+    transition: linear 0.2s;
+}
+.point {
+    background-color: #edece8;
+    color: black;
+    padding: 12px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    display: none;
+}
+.content {
+    width: 80%;
+    margin: auto;
+    height: 800px;
+    background-color: #ABAEB3;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.footer {
+    background-color: #8ac5c3;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    position:absolute;
+    width:100%;
+    height: 80px;
+
+}
+.flinks {
+    text-align: center;
+}
+.imgbox {
+    text-align: center;
+    color: black;
+
+}
+.container {
+    width: 100%;
+    margin: 100px auto 50px auto;
+}
+.row {
+    margin-left: -9px;
+    margin-right: -9px;
+}
